@@ -1,0 +1,10 @@
+# input dari pengguna
+nama = input("Masukkan nama pertama: ")
+prodi = input("Masukkan prodi kedua: ")
+fakultas = input("Masukkan fakultas ketiga: ")
+
+# Menggabungkan ketiga kata dengan spasi
+kalimat = nama + " " + prodi + " " + fakultas
+
+# Menampilkan kalimat gabungan
+print("Kalimat gabungan:", kalimat)
